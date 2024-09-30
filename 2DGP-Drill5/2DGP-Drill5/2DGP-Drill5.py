@@ -48,7 +48,7 @@ state = 'IDLE'
 
 while running:
     clear_canvas()
-    ground.draw(400, 30)
+    ground.draw(600, 100)
 
     if state == 'IDLE':
         dog.clip_composite_draw(0, 768, 256, 256, 0, '', x, y, 128, 128)
